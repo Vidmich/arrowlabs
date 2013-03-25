@@ -23,8 +23,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-group :development do
-  gem 'rspec'
+group :test, :development do
+  gem 'rspec-rails'
 end
 
 gem 'jquery-rails'
