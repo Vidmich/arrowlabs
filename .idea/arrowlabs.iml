@@ -27,7 +27,9 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v3.2.2, RVM: ruby-2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: ruby-2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.6.2, RVM: ruby-2.0.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="colorize (v0.5.8, RVM: ruby-2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="commonjs (v0.2.6, RVM: ruby-2.0.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coveralls (v0.6.7, RVM: ruby-2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.4, RVM: ruby-2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, RVM: ruby-2.0.0-p0) [gem]" level="application" />
