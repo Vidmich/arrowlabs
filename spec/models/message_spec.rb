@@ -15,6 +15,11 @@ describe Message do
     it { should_not be_valid }
   end
 
+  describe "is invalid without email" do
+    before { subject.email = ' ' }
+    it { should_not be_valid }
+  end
+
   describe "is invalid with long from" do
     before { subject.from = 'a' * 101 }
     it { should_not be_valid }
@@ -23,6 +28,11 @@ describe Message do
   describe "is invalid with long body" do
     before { subject.body = 'a' * 100001 }
     it { should_not be_valid }
+  end
+
+  describe "is invalid with long email" do
+    before { subject.email = 'a' * 101 }
+    it {should_not be_valid }
   end
 
 end
