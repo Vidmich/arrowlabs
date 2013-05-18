@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+</head>
+<body>
+<h1>Message submitted by: <%= @message.from %></h1>
+
+<p>
+  Email address: <%= @message.email %> <br/>
+</p>
+
+<p>=================== MESSAGE START ===================</p>
+<%= @message.body %>
+<p>======================== END ========================</p>
+
+<p>
+  Submitted: <%= @message.created_at %>
+</p>
+</body>
+</html>

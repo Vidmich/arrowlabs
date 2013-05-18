@@ -1,0 +1,12 @@
+Message submitted by: <%= @message.from %>
+============================================================
+
+Email address: <%= @message.email %>
+
+=================== MESSAGE START ===================
+
+<%= @message.body %>
+
+======================== END ========================
+
+Submitted: <%= @message.created_at %>
