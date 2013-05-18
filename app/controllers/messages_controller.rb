@@ -19,6 +19,7 @@ class MessagesController < ApplicationController
         flash.now[:error] = "Required fields are missing or invalid"
         render 'welcome/index'
       end
+
     else
       redirect_to :back
     end
