@@ -4,6 +4,6 @@ class MessageMailer < ActionMailer::Base
   def new_message_notification(message)
     @message = message
 
-    mail(to: 'alexei@vidmich.com', subject: 'Message from ArrowLabs.com')
+    mail(to: 'avidmich@gmail.com', subject: 'Message from ArrowLabs.com')
   end
 end
