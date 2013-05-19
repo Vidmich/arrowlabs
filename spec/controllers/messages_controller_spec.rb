@@ -14,7 +14,7 @@ describe MessagesController do
 
     email = ActionMailer::Base.deliveries.last
     email.should_not be_nil
-    email.to.should == ['alexei@vidmich.com']
+    email.to.should == ['avidmich@gmail.com']
     email.html_part.body.raw_source.should match /Message submitted/
     email.html_part.body.raw_source.should match /Email address: test@example.com/
     email.text_part.body.raw_source.should match /Message submitted/
