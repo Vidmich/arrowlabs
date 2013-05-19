@@ -1,0 +1,7 @@
+# copy into application.yml and replace with correct values below
+
+GMAIL_USERNAME: <gmail_email_address>
+GMAIL_PASSWORD: <password>
+
+production:
+  GMAIL_PASSWORD: <password>
